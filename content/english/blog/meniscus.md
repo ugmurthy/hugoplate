@@ -3,7 +3,7 @@ title: "Using AI to Explain Medical Reports"
 meta_title: ""
 description: "AI generated Medical Explanation"
 date: 2025-03-13T05:00:00Z
-image: "https://placehold.co/400x100"
+image : "https://picsum.photos/id/104/400/100"
 categories: ["AI4Work", "Guide"]
 author: "Grok3"
 tags: ["Injury", "AI Generated", "Meniscus"]

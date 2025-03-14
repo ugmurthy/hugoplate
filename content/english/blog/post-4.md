@@ -3,7 +3,7 @@ title: "How to build an Application with modern Technology"
 meta_title: ""
 description: "this is meta description"
 date: 2022-04-04T05:00:00Z
-image: "https://placehold.co/400x100"
+image : "https://picsum.photos/id/106/400/100"
 categories: ["Architecture"]
 author: "John Doe"
 summary: "Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna."

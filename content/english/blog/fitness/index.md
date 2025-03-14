@@ -4,7 +4,8 @@ date = '2024-03-12T16:07:43+05:30'
 draft = false 
 tags = ["fitness","menuscus","excercises"]
 categories = ["Guide"]
-image = "https://placehold.co/400x100"
+
+image = "https://picsum.photos/id/102/400/100"
 title = "Maintaining fitness in case of a meniscus tear"
 +++
 

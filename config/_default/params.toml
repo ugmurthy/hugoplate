@@ -3,7 +3,8 @@
 favicon = "images/favicon.png"
 # logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
 # logo = "images/logo.png"
-logo = "https://placehold.co/160x40/00000/ffffff?font=oswald&text=Build+Daily..."
+# logo = "https://placehold.co/160x40/00000/ffffff?font=oswald&text=Build+Daily..."
+logo = "https://picsum.photos/id/102/160/40"
 #ogo_darkmode = "images/logo-darkmode.png"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file

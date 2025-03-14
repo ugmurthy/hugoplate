@@ -1,6 +1,6 @@
 +++
 date = '2025-03-04T16:07:43+05:30'
-image= "https://placehold.co/400x100"
+image = "https://picsum.photos/id/103/400/100"
 draft = false 
 tags = ["gitprofile","technology","git","profile"]
 categories = ["HowTo"]

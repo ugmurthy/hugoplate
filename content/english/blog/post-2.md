@@ -1,9 +1,9 @@
 ---
-title: "How to build an Application with modern Technology"
+title: "How to build an Application with modern Technology - 2"
 meta_title: ""
 description: "this is meta description"
 date: 2022-04-04T05:00:00Z
-image : "https://picsum.photos/id/105/400/100"
+image : "https://picsum.photos/id/116/400/100"
 categories: ["Technology", "Data"]
 author: "Sam Wilson"
 tags: ["technology", "tailwind"]

@@ -1,9 +1,10 @@
 +++
 date = '2025-03-04T16:07:43+05:30'
-image = "https://picsum.photos/id/103/400/100"
+image = "https://picsum.photos/id/113/400/100"
 draft = false 
 tags = ["gitprofile","technology","git","profile"]
 categories = ["HowTo"]
+author= "Murthy Udupa"
 title = 'Github Stats on your Github profile page'
 +++
 

@@ -5,8 +5,9 @@ draft = false
 tags = ["fitness","menuscus","excercises"]
 categories = ["Guide"]
 
-image = "https://picsum.photos/id/102/400/100"
+image = "https://picsum.photos/id/111/400/100"
 title = "Maintaining fitness in case of a meniscus tear"
+author =  "Grok3"
 +++
 
 ## Key Points

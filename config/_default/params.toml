@@ -1,24 +1,30 @@
 #################### default parameters ############################
 # favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
-favicon = "images/favicon.png"
+#favicon = "images/favicon.png"
+favicon = "images/fav.svg"
 # logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
-# logo = "images/logo.png"
-# logo = "https://placehold.co/160x40/00000/ffffff?font=oswald&text=Build+Daily..."
-logo = "https://picsum.photos/id/102/160/40"
-#ogo_darkmode = "images/logo-darkmode.png"
+#logo = "images/logo.png"
+#logo = "images/logo.svg"
+logo = "https://placehold.co/160x100/ffffff/000000?font=oswald&text=+Murthy's\nMusings"
+# logo = "https://picsum.photos/id/110/160/40"
+logo_darkmode = "https://placehold.co/160x100/222222/ffffff?font=oswald&text=+Murthy's\nMusings"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
 logo_width = "160px"
 logo_height = "40px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
+
 # logo text will only show when logo is missing.
-logo_text = "Build Daily..."
+logo_text = "Murthy's musings..."
+
 # navbar fixed to top
 navbar_fixed = true
+
 # theme-mode
 theme_switcher = true
 theme_default = "system" # available options [light/dark/system]
+
 # Main Sections
 mainSections = ["blog"]
 # contact form action
@@ -39,7 +45,7 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = true
+enable = false
 label = "get a quote"
 link = "contact"
 

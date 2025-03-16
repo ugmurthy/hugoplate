@@ -16,10 +16,10 @@ weight = 2
 #url = "/elements"
 #weight = 3
 
-[[main]]
-weight = 4
-name = "Blog"
-url = "/blog"
+#[[main]]
+#weight = 4
+#name = "Blog"
+#url = "/blog"
 
 #[[main]]
 #parent = "Pages"

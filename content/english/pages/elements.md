@@ -12,6 +12,16 @@ draft: false
 
 Here is an example of headings. You can use this heading by the following markdown rules. For example: use `#` for heading 1 and use `######` for heading 6.
 
+## Global Resources as table
+Global resources are stored in `/assets` in this example we have a `pets.csv` in `/assets` to be rendedered as a table via a shortcode
+
+Table
+{{< csv-to-table "pets.csv" >}}
+
+Audio
+{{< audio "test.wav" >}}
+
+
 # Heading 1
 
 ## Heading 2

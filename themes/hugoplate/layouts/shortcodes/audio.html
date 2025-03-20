@@ -1,0 +1,7 @@
+{{ $file := .Get 0 }}
+{{ with resources.Get $file }}
+  <div class="flex flex-col items-center">
+    <div class="text-center font-thin">{{ $file }}</div>
+    <audio controls preload="auto" src="{{ .RelPermalink }}"></audio>
+  </div>
+{{ end }}

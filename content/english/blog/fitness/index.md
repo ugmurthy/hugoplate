@@ -2,7 +2,7 @@
 +++
 date = '2024-03-12T16:07:43+05:30'
 draft = false 
-tags = ["fitness","menuscus","excercises"]
+tags = ["fitness","meniscus","excercises"]
 categories = ["Guide"]
 
 image = "https://picsum.photos/id/111/400/100"

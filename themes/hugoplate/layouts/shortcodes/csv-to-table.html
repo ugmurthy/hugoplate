@@ -1,0 +1,30 @@
+{{ with $file := .Get 0 }}
+  {{ with resources.Get $file }}
+     <div> $file: {{ $file }}</div>
+     <div> dot | Unmarshall is =  {{. | transform.Unmarshal}}</div>
+    {{ with . | transform.Unmarshal }}
+      <table>
+        <thead>
+          <tr class="bg-gray-100">
+            {{ range index . 0 }}
+              <th>{{ . }}</th>
+            {{ end }}
+          </tr>
+        </thead>
+        <tbody>
+          {{ range after 1 . }}
+            <tr class="bg-gray-50">
+              {{ range . }}
+                <td>{{ . }}</td>
+              {{ end }}
+            </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    {{ end }}
+  {{ else }}
+    {{ errorf "The %q shortcode was unable to find %s. See %s" $.Name $file $.Position }}
+  {{ end }}
+{{ else }}
+  {{ errorf "The %q shortcode requires one positional argument, the path to the CSV file relative to the assets directory. See %s" .Name .Position }}
+{{ end }}

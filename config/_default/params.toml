@@ -5,9 +5,9 @@ favicon = "images/fav.svg"
 # logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
 #logo = "images/logo.png"
 #logo = "images/logo.svg"
-logo = "https://placehold.co/160x100/ffffff/000000?font=oswald&text=+Murthy's\nMusings"
+logo = "https://placehold.co/160x100/ffffff/000000?font=oswald&text=+TechBits"
 # logo = "https://picsum.photos/id/110/160/40"
-logo_darkmode = "https://placehold.co/160x100/222222/ffffff?font=oswald&text=+Murthy's\nMusings"
+logo_darkmode = "https://placehold.co/160x100/222222/ffffff?font=oswald&text=+TechBits"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
 logo_width = "160px"
@@ -23,7 +23,7 @@ navbar_fixed = true
 
 # theme-mode
 theme_switcher = true
-theme_default = "system" # available options [light/dark/system]
+theme_default = "dark" # available options [light/dark/system]
 
 # Main Sections
 mainSections = ["blog"]

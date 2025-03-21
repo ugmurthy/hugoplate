@@ -27,6 +27,8 @@ However, I refined it for clarity and specificity to:
 ollama run gemma3:12b "Extract the text in the image. Estimate the number of people dining and the reasoning behind it. Ensure the result is output as a json object" ~/Downloads/bill.jpg
 ```
 
+![Bill](bill1.jpg)
+
 This command instructed Gemma3 to process the image, extract the text, structure it as JSON, and provide an estimate of diners along with its reasoning.
 
 ## The Result

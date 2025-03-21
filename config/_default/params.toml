@@ -5,9 +5,9 @@ favicon = "images/fav.svg"
 # logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
 #logo = "images/logo.png"
 #logo = "images/logo.svg"
-logo = "https://placehold.co/160x100/ffffff/000000?font=oswald&text=+TechBits"
+logo = "https://placehold.co/160x100/ffffff/000000?font=oswald&text=+TechBytes"
 # logo = "https://picsum.photos/id/110/160/40"
-logo_darkmode = "https://placehold.co/160x100/222222/ffffff?font=oswald&text=+TechBits"
+logo_darkmode = "https://placehold.co/160x100/222222/ffffff?font=oswald&text=+TechBytes"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
 logo_width = "160px"
@@ -63,7 +63,7 @@ show_categories = true
 # announcement
 # announcement module: https://github.com/gethugothemes/hugo-modules/tree/master/components/announcement
 [announcement]
-enable = true
+enable = false
 expire_days = 7
 content = "You must replace the **baseURL** in **hugo.toml** file when deploying, you can manage this announcement from the **params.toml** file."
 
